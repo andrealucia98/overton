@@ -1,0 +1,147 @@
+body{
+	font-family:  Segoe UI;
+	color: #FFFFFF;
+	font-size: 14px;
+	background-color: #000000
+}
+header{
+	padding: 20px 0;}
+
+#hero{
+	background-image:url(../img/slider-3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 200px 0;
+	
+}
+
+#hero h1{
+	font-size: 80px;
+	font-weight: 700;
+	
+}
+
+#hero p{
+	font-size: 20px;
+}
+
+.btn-rectangulo{
+	background-color:transparent;
+	border:1px solid #fff;
+	color: #fff;
+	border-radius: 0;
+	padding: 10px 30px;
+	text-transform: lowercase;
+	font-weight:600;
+}
+.btn-rectangulo:hover{
+	background-color: #FFFFFF;
+	color:#000;
+	
+}
+
+#services{
+	padding: 100px 0px;
+	
+}
+
+#services h2{
+	font-size: 40px;
+	
+	
+}
+	
+#scroll{
+	padding:100px 0px;
+}
+
+#scroll .info-scroll{
+	text-align:center;
+	margin-bottom: 50px;
+	margin: 20px;
+}
+
+.info-scroll h3{
+	padding-bottom: 20px;
+	font-size: 25px;
+}
+
+.info-scroll h4{
+	font-size: 22px;
+	
+}
+
+.info-scroll p{
+	font-size: 16px;
+}
+
+#logos{
+	background-color: #171717;
+	padding: 30px 0px;
+}
+
+.foto{
+	position:relative;
+}
+
+.overlay{
+	position: absolute;
+	top:40%;
+	left:0;
+	width: 90%;
+	padding: 30px 40px;
+	background-color: rgba(0,0,0,0.70);
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+}
+
+.foto:hover .overlay{
+    opacity: 1;
+	transition: all 0.3s ease-in-out;
+}
+
+.bg-over-blue{
+	background-color: rgba(0,20,74,0.80)
+}
+
+#logo-forms .info-foto{
+	position: absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	background-color: rgba(0,0,0,1.00);
+	text-align: center;
+	z-index:2;
+}
+
+#logo-forms .overlay{
+	top:0;
+	height:100%;
+	width:100%;
+	opacity: 0;
+	z-index: 1;
+	
+}
+
+#logo-forms .foto:hover .overlay{
+	opacity:1;
+	transition: all 0.3s ease-in-out;
+}
+
+
+#page-header{
+	background-color: #0C0C0C;
+	color: #fff;
+	padding: 50px 0;
+	
+}
+
+
+#page-header h1{
+font-size: 26px;
+}
+
+#content{
+	padding: 45px 0;
+}
