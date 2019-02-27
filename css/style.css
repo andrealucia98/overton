@@ -80,3 +80,68 @@ header{
 	background-color: #171717;
 	padding: 30px 0px;
 }
+
+.foto{
+	position:relative;
+}
+
+.overlay{
+	position: absolute;
+	top:40%;
+	left:0;
+	width: 90%;
+	padding: 30px 40px;
+	background-color: rgba(0,0,0,0.70);
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+}
+
+.foto:hover .overlay{
+    opacity: 1;
+	transition: all 0.3s ease-in-out;
+}
+
+.bg-over-blue{
+	background-color: rgba(0,20,74,0.80)
+}
+
+#logo-forms .info-foto{
+	position: absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	background-color: rgba(0,0,0,1.00);
+	text-align: center;
+	z-index:2;
+}
+
+#logo-forms .overlay{
+	top:0;
+	height:100%;
+	width:100%;
+	opacity: 0;
+	z-index: 1;
+	
+}
+
+#logo-forms .foto:hover .overlay{
+	opacity:1;
+	transition: all 0.3s ease-in-out;
+}
+
+
+#page-header{
+	background-color: #0C0C0C;
+	color: #fff;
+	padding: 50px 0;
+	
+}
+
+
+#page-header h1{
+font-size: 26px;
+}
+
+#content{
+	padding: 45px 0;
+}
